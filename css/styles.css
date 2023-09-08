@@ -1,0 +1,62 @@
+/* C1 - Global element styles */
+body {
+  font-family: "Roboto", Arial, sans-serif; /* C7, C8 */
+  font-size: 16px; /* C11 */
+  line-height: 1.5; /* C12 */
+  color: #333; /* C10, C13 */
+}
+
+/* C6 - CSS variables */
+:root {
+  --text-color: #333;
+  --background-color: #fff;
+  --highlight-color: #007bff;
+}
+
+/* C2 - Class selectors */
+.logo-link,
+nav ul a,
+.contact-info a {
+  text-decoration: none;
+  color: var(--text-color); /* C13 */
+  transition: color 0.3s; /* C5 */
+}
+
+/* C4 - Interactive elements */
+button,
+a:hover,
+a:focus {
+  color: var(--highlight-color); /* C5 */
+}
+
+/* C16 - Buttons cursor property */
+button {
+  cursor: pointer;
+}
+
+/* C11 - Font size for specific elements */
+h1,
+h2,
+h3 {
+  font-size: 24px; /* C11 */
+}
+
+/* C14 - Font weight */
+h1,
+h2,
+h3 {
+  font-weight: bold; /* C14 */
+}
+
+/* C15 - Explicit font weight */
+/* Example: Change font weight for h3 if needed */
+/* h3 {
+    font-weight: normal; // If layout specifies a different weight
+} */
+
+/* Styling for specific sections and elements */
+/* Example: Style the header contact info differently */
+header .contact-info {
+  font-size: 14px; /* Adjust as needed */
+  font-weight: bold; /* Adjust as needed */
+}
