@@ -105,3 +105,9 @@ h3 {
   color: white;
   font-family: "Roboto", Arial, sans-serif;
 }
+pre {
+  display: block;
+  font-family: "Roboto", Arial, sans-serif;
+  white-space: pre;
+  margin: 1em 0;
+}
