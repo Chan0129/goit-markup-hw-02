@@ -64,7 +64,7 @@ body {
 .main-content-area {
   background-color: #2e2f42;
 }
-.text-word{
+.text-word {
   list-style: none;
 }
 .content_area {
@@ -74,13 +74,19 @@ body {
   font-family: "Roboto", Arial, sans-serif;
 }
 .button {
-  background-color: royalblue;
-  color: white;
-  font-weight: bold;
-  font-family: "Roboto", Arial, sans-serif;
-  border-radius: 5px;
-  border: 1px solid royalblue;
+  font-size: 15px;
+  text-align: center;
   cursor: pointer;
+  outline: none;
+  color: #fff;
+  font-weight: bold;
+  background-color: royalblue;
+  border: none;
+  border-radius: 5px;
+}
+.button:active {
+  background-color: rgb(20, 40, 102);
+  transform: translateY(2px);
 }
 
 .objective {
