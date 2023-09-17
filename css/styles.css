@@ -64,6 +64,9 @@ body {
 .main-content-area {
   background-color: #2e2f42;
 }
+.text-word{
+  list-style: none;
+}
 .content_area {
   text-transform: uppercase;
   text-align: center;
