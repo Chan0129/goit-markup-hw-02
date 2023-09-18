@@ -13,7 +13,7 @@ body {
 
 .logo-link {
   text-decoration: none;
-  color: var(--text-color);
+  color: #333;
   transition: color 0.3s;
   font-size: 18px;
   font-family: "Roboto", Arial, sans-serif;
@@ -27,12 +27,14 @@ body {
   font-weight: bold;
   list-style: none;
   font-family: "Roboto", Arial, sans-serif;
+  color: #333;
 }
 .portfolio {
   text-decoration: none;
   font-weight: bold;
   list-style: none;
   font-family: "Roboto", Arial, sans-serif;
+  color: #333;
 }
 
 .contact {
@@ -41,23 +43,23 @@ body {
   list-style: none;
   text-align: left;
   font-family: "Roboto", Arial, sans-serif;
+  color: #333;
 }
 .social_link {
-  text-decoration: none;
   list-style: none;
   font-family: "Roboto", Arial, sans-serif;
+  color: #333;
 }
 
 .email {
-  text-decoration: none;
   font-family: "Roboto", Arial, sans-serif;
+  color: #333;
 }
 .contact-number {
-  text-decoration: none;
   font-family: "Roboto", Arial, sans-serif;
+  color: #333;
 }
 .social__link {
-  text-decoration: none;
   list-style: none;
   font-family: "Roboto", Arial, sans-serif;
 }
@@ -119,4 +121,24 @@ pre {
   font-family: "Roboto", Arial, sans-serif;
   white-space: pre;
   margin: 1em 0;
+}
+.logo-link:hover,
+.logo-link:focus,
+.studio:hover,
+.studio:focus,
+.portfolio:hover,
+.portfolio:focus,
+.contact:hover,
+.contact:focus {
+  color: royalblue;
+}
+.social__link li:hover a,
+.social__link li:focus a {
+  color: royalblue;
+}
+.style-footer a:hover,
+.style-footer a:focus,
+.style-footer pre:hover,
+.style-footer pre:focus {
+  color: royalblue;
 }
